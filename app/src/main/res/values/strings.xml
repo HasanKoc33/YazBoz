@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Yaz Boz</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6139386909716103/5285227214</string>
+    <string name="gecis_reklam">ca-app-pub-6139386909716103/7430424964</string>
+    <string name="tanitim">"https://play.google.com/store/apps/dev?id=5762596002997968277"</string>
+
+    <!--    Test ID leri -->
+    <!--    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="gecis_reklam">ca-app-pub-3940256099942544/1033173712</string> -->
+</resources>

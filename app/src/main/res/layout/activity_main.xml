@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7c8288"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:layout_marginTop="35dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:text=" Hoş Geldiniz \n "
+            android:textSize="40dp"
+
+            />
+
+
+
+        <Button
+            android:id="@+id/iki"
+            android:layout_width="265dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="390dp"
+            android:background="@drawable/iki"
+            android:textColor="#fff" />
+        <Button
+            android:id="@+id/uc"
+            android:layout_width="265dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="310dp"
+            android:background="@drawable/uc"
+            android:textColor="#fff" />
+        <Button
+            android:id="@+id/dort"
+            android:layout_width="265dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="230dp"
+            android:background="@drawable/dort"
+            android:textColor="#fff" />
+        <Button
+            android:id="@+id/bag"
+            android:layout_width="265dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="150dp"
+            android:background="@drawable/buton"
+            android:text="MASAYA BAGLAN"
+            android:textColor="#fff" />
+
+
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom|center"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id">
+            </com.google.android.gms.ads.AdView>
+
+        <Button
+            android:id="@+id/uzanti"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/buton"
+            android:textColor="#fff"
+            android:text="diğer uygulamalarımız" />
+
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
